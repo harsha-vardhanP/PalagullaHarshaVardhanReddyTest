@@ -19,19 +19,20 @@ HTML tags are the keywords on a web page that define how your web browser must f
 a closing tag. For example, <html> is the opening tag and </html> is the closing tag.
 
 eg:- 
-Head Tag
+
+Head Tag: 
 The head tag <head> contains all the elements describing the document. 
 
-Title Tag
+Title Tag: 
 The title tag <title> specifies the HTML page title, which is shown in the browser’s title bar. 
 
-Body Tag
+Body Tag: 
 The body tag <body> is where you insert your web page’s content. 
 
-Paragraph Tag
+Paragraph Tag: 
 A paragraph tag <p> is used to define a paragraph on a web page.
 
-Heading Tag 
+Heading Tag:  
 The HTML heading tag is used to define the heading of the HTML document. 
 
 -------------------------------------------------------------------------------------------------------------------------------
@@ -54,3 +55,27 @@ the UI. This entire process of transforming changes to the real DOM is called Re
 (Q4) Mention some Differences between MySQL and No SQL
 sol:-
 
+1. SQL databases are relational, and NoSQL databases are non-relational.
+2. SQL databases are table-based, while NoSQL databases are document, key-value, graph, or wide-column stores.
+3. SQL databases are vertically scalable, while NoSQL databases are horizontally scalable.
+4. SQL databases use structured query language (SQL) and have a predefined schema. NoSQL databases have dynamic schemas for unstructured data.
+5. SQL databases are better for multi-row transactions, while NoSQL is better for unstructured data like documents or JSON.
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+(Q5) Explain any one DBMS Technology in your own words.
+sol:-
+
+MongoDB:-
+MongoDB is an open-source document-oriented database that is designed to store a large scale of data and also allows you to work with that data very efficiently.
+It is categorized under the NoSQL (Not only SQL) database because the storage and retrieval of data in the MongoDB are not in the form of tables. 
+
+The MongoDB database contains collections just like the MYSQL database contains tables. You are allowed to create multiple databases and multiple collections.
+
+Now inside of the collection we have documents. These documents contain the data we want to store in the MongoDB database and a single collection can contain
+multiple documents and you are schema-less means it is not necessary that one document is similar to another.
+
+The documents are created using the fields. Fields are key-value pairs in the documents, it is just like columns in the relation database. The value of the fields
+can be of any BSON data types like double, string, boolean, etc.
+
+-------------------------------------------------------------------------------------------------------------------------------
