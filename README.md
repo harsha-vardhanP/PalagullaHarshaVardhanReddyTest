@@ -32,7 +32,7 @@ Paragraph Tag
 A paragraph tag <p> is used to define a paragraph on a web page.
 
 Heading Tag 
-The HTML heading tag is used to define the heading of the HTML document. The "<h1>" tag defines the most important tag, and "<h6>" defines  the least.
+The HTML heading tag is used to define the heading of the HTML document. The <h1> </h1> tag defines the most important tag, and <h6> </h6> defines  the least.
 
 -------------------------------------------------------------------------------------------------------------------------------
 
